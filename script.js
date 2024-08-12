@@ -1,0 +1,14 @@
+var age = 22;
+alert("I am "+ age + " years old.");
+var visitCount = localStorage.getItem("page_view");
+visitCount = Number(visitCount) + 1;
+localStorage.setItem("page_view", visitCount);
+var noOfVisits = localStorage.getItem("page_view");
+alert("You have visited this site "+ noOfVisits + " times.");
+var birthYear = 2002;
+document.write("My birth year is " + birthYear+"<br>");
+document.writeln("Data type of my declared variable is number"+"<br>");
+var visitorName = "John Doe";
+var productTitle = "T-shirt";
+var quantity = 5;
+document.write(visitorName+" ordered "+ quantity+ " "+ productTitle+"(s) on XYZ Clothing store");
